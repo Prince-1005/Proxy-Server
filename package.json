@@ -1,10 +1,14 @@
 {
-  "name": "tg-proxy",
-  "version": "1.0.0",
+  "name": "tg-proxy-worker",
+  "version": "2.0.0",
   "main": "proxy.js",
-  "scripts": { "start": "node proxy.js" },
+  "scripts": {
+    "start": "node proxy.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
+    "http-proxy-middleware": "^2.0.6",
+    "youtube-dl-exec": "^3.0.0",
+    "@supabase/supabase-js": "^2.39.0"
   }
 }
